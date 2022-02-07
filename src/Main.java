@@ -1,10 +1,10 @@
 public class Main {
     public static void main(String[] args) {
-        int account = 300;
-        int refill = 2000;
+        int account = 400; // сумма на счете
+        int refill = 5000; // сумма пополнения
 
-        int bonus;
-        int amount;
+        int bonus; // бонус с пополнения
+        int amount; // итоговая сумма на счете
         if (refill > 1000) {
             bonus = (refill / 100);
             amount = (refill + bonus + account);
